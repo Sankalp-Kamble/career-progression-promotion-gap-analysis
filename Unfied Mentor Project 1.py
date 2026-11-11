@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 # ------------------------------------------------------------
-# 1. PROJECT PATHS
+# 1. PROJECT PATH
 # ------------------------------------------------------------
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
