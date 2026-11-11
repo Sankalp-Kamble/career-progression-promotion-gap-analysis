@@ -1,0 +1,38 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyCharm settings
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sensitive data and employee-level datasets
+data/
+*.csv
+*.xlsx
+*.xls
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets
+.streamlit/secrets.toml
